@@ -8,11 +8,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
     <!--script src="ChartJs_2.9.4_Chart.min.js"></script-->
-    <title>Laon Makers Dashboard</title>
+    <title>Laon Creators' Dashboard</title>
 </head>
 
-<body>
-    <h1 style='text-align:center'>Welcome to Laon Makers Project Dashboard !</h1>
+<body onload='initDashboard()'>
+    <h1 style='text-align:center'>Welcome to Laon Creators' Project Dashboard !</h1>
     <br />
     <br />
     <hr />
@@ -24,13 +24,13 @@
         <select id="selPrj">
             <option> -- Choose Project --</option>
             <option>Dashboard</option>
-            <option>Game</option>
-            <option>IOT</option>
-            <option>Bug Tracker</option>
+            <option>Ultrasonic Keyboard</option>
+            <option>Flower</option>
+            <option>Interactive LED</option>
+            <option>Reflective Wheel</option>
+            <option>NFT Shop</option>
             <option>Blog</option>
-            <option>Financial Portal</option>
-            <option>Inventory Control</option>
-            <option>Work Order System</option>
+            <option>Music Visualizer</option>
         </select><br /><br />
         <input id='newProgress' type='text' style="width:3em" />
         <button type="button" onclick="updateProgress()">Update Progress</button><br /><br />
@@ -48,13 +48,13 @@
         <select id="selPrj4Hour">
             <option> -- Choose Project --</option>
             <option>Dashboard</option>
-            <option>Game</option>
-            <option>IOT</option>
-            <option>Bug Tracker</option>
+            <option>Ultrasonic Keyboard</option>
+            <option>Flower</option>
+            <option>Interactive LED</option>
+            <option>Reflective Wheel</option>
+            <option>NFT Shop</option>
             <option>Blog</option>
-            <option>Financial Portal</option>
-            <option>Inventory Control</option>
-            <option>Work Order System</option>
+            <option>Music Visualizer</option>
         </select><br /><br />
         <input id='newHour' type='text' style="width:3em" />
         <button type="button" onclick="updatePrjHour()">Update Hours</button><br /><br />
@@ -70,13 +70,13 @@
         <select id="selPrj4WT" onchange="showSelectedPrjWorkType(this)">
             <!--option> -- Choose Project --</option-->
             <option>Dashboard</option>
-            <option>Game</option>
-            <option>IOT</option>
-            <option>Bug Tracker</option>
+            <option>Ultrasonic Keyboard</option>
+            <option>Flower</option>
+            <option>Interactive LED</option>
+            <option>Reflective Wheel</option>
+            <option>NFT Shop</option>
             <option>Blog</option>
-            <option>Financial Portal</option>
-            <option>Inventory Control</option>
-            <option>Work Order System</option>
+            <option>Music Visualizer</option>
         </select><br /><br />
         <!--label for="selWType">Work Type: </label-->
         <select id="selWType">
@@ -92,10 +92,18 @@
         <button type='button' onclick='shiftWorkTypeHour()'>Shift Projects</button>&nbsp;&nbsp;&emsp;
     </div>
     <hr />
-    <i style='font-size: small;'>Laon Makers' dashboard revision: 1.0. Last Updated: Dec. 22, 2021</i>
+    <i style='font-size: small;'>Laon Creators' dashboard revision: 1.1. Last Updated: Dec. 26, 2021</i>
     <hr />
     <script src="project.js"></script>
     <script src="dashboard.js"></script>
+    <script>
+        function initDashboard() {
+            document.getElementById('selPrj').selectedIndex = 0;
+            document.getElementById('selPrj4Hour').selectedIndex = 0;
+            document.getElementById('selPrj4WT').selectedIndex = 0;
+            //document.getElementById('selWType').selectedIndex = 0;
+        }
+    </script>
 </body>
 
 </html>

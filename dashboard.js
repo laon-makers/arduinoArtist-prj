@@ -44,39 +44,41 @@ let dashbdChart = new Chart("dashboardChart", {
     },
 });
 
+
 let prjHourChart = new Chart("projectHourChart", {
     type: "doughnut",
     data: {
-      labels: xPrjNames,
-      datasets: [{
+    labels: xPrjNames,
+    datasets: [{
         backgroundColor: prjChartColors,
         data: yPrjHours
-      }]
+    }]
     },
     options: {
-      title: {
+    title: {
         display: true,
         text: "Each Project's Work Hours"
-      }
     }
-  });
+    }
+});
 
-  let wTypeChart = new Chart("workTypeChart", {
+let wTypeChart = new Chart("workTypeChart", {
     type: "pie",
     data: {
-      labels: xWorkTypeNames,
-      datasets: [{
+    labels: xWorkTypeNames,
+    datasets: [{
         backgroundColor: wTypebarColors,
         data: yWorkTypeHours
-      }]
+    }]
     },
     options: {
-      title: {
+    title: {
         display: true,
         text: "Hours of Dashboard Project's Work Type"
-      }
     }
-  });
+    }
+});
+
 
 function getProjectWorkHours(prjIx) {
     let sum = 0;
@@ -103,7 +105,7 @@ function populateWorkTypeHours(prj) {
 }
 
 
-  function updateProgress() {
+function updateProgress() {
     let sel = document.getElementById('selPrj');
     let newVal = document.getElementById('newProgress');
     let ix = sel.selectedIndex - 1;
@@ -164,25 +166,6 @@ function updatePrjHour() {
         alert("invalid number!")
     }
 }
-
-
-// function shiftPrjHour() {
-//     let i = xPrjNames.length - 1;
-//     tmpPrj = xPrjNames[i];
-//     tmpH = yPrjHours[i];
-
-//     for (; i > 0; i--) {
-//         xPrjNames[i] = xPrjNames[i - 1];
-//         yPrjHours[i] = yPrjHours[i - 1];
-//         yPrjProgress[i] = yPrjProgress[i - 1];
-//     }
-
-//     xPrjNames[i] = tmpPrj;
-//     yPrjHours[i] = tmpH;
-//     yPrjProgress[i] = tmpY;
-//     prjHourChart.update();
-// }
-
 
 function showSelectedPrjWorkType(me) {
     let ix = me.selectedIndex;
