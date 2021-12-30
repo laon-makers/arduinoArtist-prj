@@ -2,7 +2,7 @@
     Version: 1.0
     Last update: Dec. 27, 2021
 */
-function gotoToStatus(hfoot) {
+function goToStatus(hfoot) {
     let f = document.getElementById('stPw').value.trim();
     let jp = document.getElementById('toStatus');
     
