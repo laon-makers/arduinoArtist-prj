@@ -1,6 +1,6 @@
 let refRt = ["1-38-35", "39-51-23.34", "52-100-35"];
 let dateTimeLog = [
-    [1,  "2022.01.23", "15:50", "19:30", "3:40",  -1,     0,  6.28,   2, "Design of the next project (rotating wheel)."],
+    [1,  "2022.01.23", "15:50", "19:30", "3:40",  -1,     0,  6.28,   2, "Design of the next project (Reflective Wheel)."],
     [1,  "2021.12.24", "19:37", "22:37", "3:00",  -1,     0,  8.28,   0, "Free (meeting); motor and accessory for next project."],
     [1,  "2021.12.22", "11:02", "14:26", "4:24",  -1,     0,  8.28,   0, "Free (meeting); about '종강' and next projects."],
     [1,  "2021.12.09", "09:05", "12:05", "3:00",  -1,     0,  12.42,   0, "Free (standby for demo); the end of 'Interactive LED'."],
