@@ -1,6 +1,6 @@
-/*  Author: G.T. Cho (a Laon maker/artist in Laon Creators' Group)
-    Version: 1.0
-    Last update: Dec. 27, 2021
+/*  Author: G.T. Cho (a Laon maker/artist in Laon Creators)
+    Version: 1.1
+    Last update: Jan. 30, 2022
 */
 let xPrjNames = [];
 let yPrjProgress = [];
