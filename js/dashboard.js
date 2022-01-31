@@ -1,4 +1,4 @@
-/*  Author: Laon Maker (Laon Creators' Group)
+/*  Author: G.T. Cho (a Laon maker/artist in Laon Creators' Group)
     Version: 1.0
     Last update: Dec. 27, 2021
 */
@@ -41,48 +41,60 @@ let dashbdChart = new Chart("dashboardChart", {
     },
     options: {
         legend: { display: false },
-        title: {
-            display: true,
-            text: "Each Project Status (%)",
-        },
+        // title: {
+        //     display: true,
+        //     text: "Each Project Status (%)",
+        // },
     },
 });
-
 
 let prjHourChart = new Chart("projectHourChart", {
     type: "doughnut",
     data: {
-    labels: xPrjNames,
-    datasets: [{
+      labels: xPrjNames,
+      datasets: [{
         backgroundColor: prjChartColors,
         data: yPrjHours
-    }]
+      }]
     },
     options: {
-    title: {
-        display: true,
-        text: "Each Project's Work Hours"
-    }
+      legend: {position:'bottom'},
+    //   title: {
+    //     display: true,
+    //     // fontSize: 25,
+    //     // padding: 15,
+    //     // fontColor: 'blue',
+    //     text: "Each Project's Work Hours"
+    //   }
     }
 });
 
-let wTypeChart = new Chart("workTypeChart", {
+  let wTypeChart = new Chart("workTypeChart", {
     type: "pie",
     data: {
-    labels: xWorkTypeNames,
-    datasets: [{
+      labels: xWorkTypeNames,
+      datasets: [{
         backgroundColor: wTypebarColors,
         data: yWorkTypeHours
-    }]
+      }]
     },
     options: {
-    title: {
-        display: true,
-        text: "Hours of Dashboard Project's Work Type"
+      legend: {position:'bottom'},
+    //   title: {
+    //     display: true,
+    //     text: "Hours of Dashboard Project's Work Type"
+    //   },
+    //   layout: {
+    //       padding: {
+    //           left: 0,
+    //           right: 0,
+    //           top: 50,
+    //           bottom: 0
+    //       }
+    //   }
     }
-    }
-});
 
+});
 
 function getProjectWorkHours(prjIx) {
     let sum = 0;
@@ -109,7 +121,7 @@ function populateWorkTypeHours(prj) {
 }
 
 
-function updateProgress() {
+  function updateProgress() {
     let sel = document.getElementById('selPrj');
     let newVal = document.getElementById('newProgress');
     let ix = sel.selectedIndex - 1;
@@ -131,6 +143,7 @@ function chgPrjColor() {
 
     prjChartColors[i] = tmp;
     dashbdChart.update();
+    prjHourChart.update();
 }
 
 function shiftProjectStatus(chartIdName) {
@@ -151,11 +164,13 @@ function shiftProjectStatus(chartIdName) {
     yPrjProgress[i] = tmpY;
     prjChartColors[i] = tmpC;
     yPrjHours[i] = tmpH;
-    if( chartIdName == 'dashboardChart' ) {
-        dashbdChart.update();
-    } else {
-        prjHourChart.update();
-    }
+    // if( chartIdName == 'dashboardChart' ) {
+    //     dashbdChart.update();
+    // } else {
+    //     prjHourChart.update();
+    // }
+    dashbdChart.update();
+    prjHourChart.update();
 }
 
 function updatePrjHour() {
@@ -170,6 +185,25 @@ function updatePrjHour() {
         alert("invalid number!")
     }
 }
+
+
+// function shiftPrjHour() {
+//     let i = xPrjNames.length - 1;
+//     tmpPrj = xPrjNames[i];
+//     tmpH = yPrjHours[i];
+
+//     for (; i > 0; i--) {
+//         xPrjNames[i] = xPrjNames[i - 1];
+//         yPrjHours[i] = yPrjHours[i - 1];
+//         yPrjProgress[i] = yPrjProgress[i - 1];
+//     }
+
+//     xPrjNames[i] = tmpPrj;
+//     yPrjHours[i] = tmpH;
+//     yPrjProgress[i] = tmpY;
+//     prjHourChart.update();
+// }
+
 
 function showSelectedPrjWorkType(me) {
     let ix = me.selectedIndex;
