@@ -1,5 +1,6 @@
-let refRt = ["1-38-35", "39-51-23.34", "52-100-35"];
+let refRt = ["1-38-35", "39-51-23.34", "52-200-35"];
 let dateTimeLog = [
+    [1,  "2022.02.20", "16:15", "19:15", "3:00",  -1,     0,  2.28,   2, "Revised the assemply scketch. Took 2 Alloys."],
     [1,  "2022.01.29", "16:15", "21:00", "5:45",  -1,     0,  4.28,   2, "Tested AC motor and updated the assemply scketch."],
     [1,  "2022.01.23", "15:50", "19:30", "3:40",  -1,     0,  6.28,   2, "Design of the next project (Reflective Wheel)."],
     [1,  "2021.12.24", "19:37", "22:37", "3:00",  -1,     0,  8.28,   0, "Free (meeting); motor and accessory for next project."],
