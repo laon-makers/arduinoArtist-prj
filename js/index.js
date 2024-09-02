@@ -1,6 +1,6 @@
 /*  Author: G.T. Cho (a Laon maker/artist in Laon Creators)
-    Version: 1.0
-    Last update: Dec. 27, 2021
+    Version: 1.1
+    Last update: Sep. 01, 2024
 */
 function goToStatus(hfoot) {
     let f = document.getElementById('stPw').value.trim();
@@ -16,7 +16,7 @@ function goToStatus(hfoot) {
         arr.push(hex);
       }
       //arr.join('');
-      f = hf[0] + arr.toString().replaceAll(',','') + hf[1] + '.htm';
+      f = hf[0] + f[1] + arr.toString().replaceAll(',','') + hf[1] + '.htm';
       jp.setAttribute("href", f + "?valid=true");
       jp.hidden = false;
       document.getElementById('msg').textContent = "";
