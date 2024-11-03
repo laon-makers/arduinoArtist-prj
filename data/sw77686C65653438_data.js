@@ -1,5 +1,6 @@
 let refRt = ["1-38-35"];
 let dateTimeLog = [    
+    [1,  "2024.11.03", "14:00", "16:00", "2:00",  -1,    42,     10,   2, "Motor control S/W design result review.<br>How motor and H-bridge driver work. &ensp; <i style='color:grey; font-size:small;'>--10월11일 6회분 납부완료--</i>"],
     [1,  "2024.09.29", "14:00", "16:35", "2:15",  -1,     0,      0,   2, "Capacitor: how the induced current flows.<br>What is the relay in a circuit?"],
     [1,  "2024.09.22", "14:00", "16:00", "2:00",  -1,     0,      2,   2, "Hands-on experimentation on the capacitor reaction differences between during the voltage <br>accross the capacitor being changed and not changed."],
     [1,  "2024.09.15", "14:00", "16:10", "2:10",  -1,     0,      4,   2, "Built and downloaded a RFID reference project to Arduino UNO. Brief introduction to RFID. <br> The characteristics of capacitors <i style='color:grey;'>(with the story of  '견우&amp;직녀')</i>"],
