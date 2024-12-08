@@ -1,5 +1,6 @@
 let refRt = ["1-38-35"];
-let dateTimeLog = [    
+let dateTimeLog = [
+    [1,  "2024.12.08", "14:00", "16:10", "2:10",  -1,     0,      4,   2, "Design approaches and how to simplify requirements by grouping features into associated functions."],
     [1,  "2024.12.01", "14:10", "16:20", "2:10",  -1,     0,      6,   2, "How to design smart door lock sub-system after reviewing feature requirements."],
     [1,  "2024.11.24", "14:00", "16:00", "2:00",  -1,     0,      8,   2, "Simulation &amp; emulation, backed by the demo of the motor control simulation.<br>Socket, pipe, and shared memory as Inter Process Communication(IPC)."],
     [1,  "2024.11.03", "14:00", "16:00", "2:00",  -1,    42,     10,   2, "Motor control S/W design result review.<br>How motor and H-bridge driver work. &ensp; <i style='color:grey; font-size:small;'>--10월11일 6회분 납부완료--</i>"],
