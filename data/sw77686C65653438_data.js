@@ -1,5 +1,7 @@
 let refRt = ["1-38-35"];
 let dateTimeLog = [
+    [1,  "2024.12.15", "17:40", "18:50", "1:10",  -1,     0,      2,   0, "<span style='color:grey;'>Free( bit-field and its use cases ).</span>"],
+    [1,  "2024.12.15", "14:15", "16:15", "2:00",  -1,     0,      2,   2, "Creating H/W high level block diagram based on the Requirement Document."],
     [1,  "2024.12.08", "14:00", "16:10", "2:10",  -1,     0,      4,   2, "Design approaches and how to simplify requirements by grouping features into associated functions."],
     [1,  "2024.12.01", "14:10", "16:20", "2:10",  -1,     0,      6,   2, "How to design smart door lock sub-system after reviewing feature requirements."],
     [1,  "2024.11.24", "14:00", "16:00", "2:00",  -1,     0,      8,   2, "Simulation &amp; emulation, backed by the demo of the motor control simulation.<br>Socket, pipe, and shared memory as Inter Process Communication(IPC)."],
