@@ -1,6 +1,7 @@
 let refRt = ["1-38-35"];
 let dateTimeLog = [
-    [1,  "2025.01.05", "14:00", "16:15", "2:15",  -1,     0,      0,   2, "Refreshed memeory &amp; Continued H/W high level block diagram: <br><span style='color:grey;'>(PWM,duty cycle, active low LED control)</span>"],
+    [1,  "2025.01.12", "14:00", "16:00", "2:00",  -1,    21,      4,   2, "Refreshed memory &amp; Continued H/W high level block diagram: <br><span style='color:grey;'>(Modulation: PWM, AM, FM. Period &amp; Frequency Domain.)</span>"],
+    [1,  "2025.01.05", "14:00", "16:15", "2:15",  -1,     0,      0,   2, "Refreshed memory &amp; Continued H/W high level block diagram: <br><span style='color:grey;'>(PWM,duty cycle, active low LED control)</span>"],
     [1,  "2024.12.15", "17:40", "18:50", "1:10",  -1,     0,      2,   0, "<span style='color:grey;'>Free( bit-field and its use cases ).</span>"],
     [1,  "2024.12.15", "14:15", "16:15", "2:00",  -1,     0,      2,   2, "Creating H/W high level block diagram based on the Requirement Document."],
     [1,  "2024.12.08", "14:00", "16:10", "2:10",  -1,     0,      4,   2, "Design approaches and how to simplify requirements by grouping features into associated functions."],
