@@ -1,5 +1,6 @@
 let refRt = ["1-38-35"];
 let dateTimeLog = [
+    [1,  "2025.02.09", "14:00", "16:10", "2:00",  -1,    21,      4,   2, "Reviewed Arduino Mega128 datasheet in details<br> <span style='color:grey;'>(CPU vs MCU, Peripherals, Interrupt sources, ...)</span>"],
     [1,  "2025.02.02", "14:00", "16:00", "2:00",  -1,     0,      0,   2, "Reviewed Arduino Mega128 datasheet in details<br> <span style='color:grey;'>(Single Clock Cycle, MIPS, RISC, ...)</span>"],
     [1,  "2025.01.26", "14:00", "16:10", "2:00",  -1,     0,      2,   2, "Refreshed memory &amp; completed high level H/W block diagram<br> <span style='color:grey;'>(1 x UART, 2 x I2C, 2 x SPI)</span>, and reviewed a data sheet <span style='color:grey;'>(BeagleBone)</span>."],
     [1,  "2025.01.12", "14:00", "16:00", "2:00",  -1,    21,      4,   2, "Refreshed memory &amp; continued high level H/W block diagram: <br><span style='color:grey;'>(Modulation: PWM, AM, FM. Period &amp; Frequency Domain.)</span>"],
