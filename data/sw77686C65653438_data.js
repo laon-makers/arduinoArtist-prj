@@ -1,5 +1,6 @@
 let refRt = ["1-38-35"];
 let dateTimeLog = [
+    [1,  "2025.03.02", "14:10", "16:17", "2:07",  -1,     0,      0,   2, "Drawing schematic with KiCad 6.0<br> <span style='color:grey;'>(details about I2C &amp; its use cases)</span><br>How to produce PCB."],
     [1,  "2025.02.16", "14:00", "16:20", "2:20",  -1,     0,      2,   2, "Drawing schematic with KiCad 6.0<br> <span style='color:grey;'>(configuring &amp; drawing)</span>"],
     [1,  "2025.02.09", "14:00", "16:10", "2:10",  -1,    21,      4,   2, "Reviewed Arduino Mega128 datasheet in details<br> <span style='color:grey;'>(CPU vs MCU, Peripherals, Interrupt sources, ...)</span>"],
     [1,  "2025.02.02", "14:00", "16:00", "2:00",  -1,     0,      0,   2, "Reviewed Arduino Mega128 datasheet in details<br> <span style='color:grey;'>(Single Clock Cycle, MIPS, RISC, ...)</span>"],
