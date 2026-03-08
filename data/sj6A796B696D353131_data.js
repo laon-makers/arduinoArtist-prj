@@ -1,5 +1,6 @@
 let refRt = ["1-38-30"];
 let dateTimeLog = [
+    [11, "2026. 3.08", "14:00", "18:30", "4:30",  -1,    20,     7,       3, "<i>Move a few function into newly created files; one source and one header file.<br>Use the VS code as an IDE.</i>"],
     [10, "2026. 2.22", "14:00", "19:00", "5:00",  -1,     0,     3.333,   3, "<i>Pull up/down resistor.Code optimization with a function. Made a git server.</i>"],
     [9,  "2026. 2.16", "14:00", "18:00", "4:00",  -1,    20,     6.333,   3, "<i>Address the issue where the button press doesn't stop the traffic light on/off cycle.<br>Review the data type definition/declaration and scopes. Configure the git difftool.</i>"],
     [8,  "2026. 2.08", "14:00", "18:20", "4:20",  -1,     0,     2.667,   3, "<i>Add the traffic light control button and control the light on/off cycle with the button.</i>"],
