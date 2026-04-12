@@ -1,6 +1,7 @@
 let refRt = ["1-38-30"];
 let dateTimeLog = [
-    [12, "2026. 4.05", "14:00", "17:50", "3:50",  -1,     0,     4,       3, "<i>Reminded our objectives. Reviewed how to convert lines of code into a func.<br>Moved delay func calls into the custom func.</i>"],
+    [13, "2026. 4.12", "14:00", "18:50", "4:50",  -1,    20,     7.667,   3, "<i>Fix: the unstoppable light on/off sequence issue.<br>Discuss about git branches and a blocking/non-blocking time delay.</i>"],
+    [12, "2026. 4.05", "14:00", "17:50", "3:50",  -1,     0,     4,       3, "<i>Reminded/defined the class objectives. Reviewed how to convert lines of code into a func.<br>Moved delay func calls into the custom func.</i>"],
     [11, "2026. 3.08", "14:00", "18:30", "4:30",  -1,    20,     7,       3, "<i>Move a few function into newly created files; one source and one header file.<br>Use the VS code as an IDE.</i>"],
     [10, "2026. 2.22", "14:00", "19:00", "5:00",  -1,     0,     3.333,   3, "<i>Pull up/down resistor.Code optimization with a function. Made a git server.</i>"],
     [9,  "2026. 2.16", "14:00", "18:00", "4:00",  -1,    20,     6.333,   3, "<i>Address the issue where the button press doesn't stop the traffic light on/off cycle.<br>Review the data type definition/declaration and scopes. Configure the git difftool.</i>"],
