@@ -1,5 +1,6 @@
 let refRt = ["1-38-30"];
 let dateTimeLog = [
+    [15, "2026. 5.03", "14:00", "18:10", "4:10",  -1,    20,     8.334,   3, "<i>Completed the none blocking delay."],
     [14, "2026. 4.26", "14:00", "18:00", "4:00",  -1,     0,     4.667,   3, "<i>Made a custom timer for none blocking delay."],
     [13, "2026. 4.12", "14:00", "18:50", "4:50",  -1,    20,     7.667,   3, "<i>Fix: the unstoppable light on/off sequence issue.<br>Discuss about git branches and a blocking/non-blocking time delay.</i>"],
     [12, "2026. 4.05", "14:00", "17:50", "3:50",  -1,     0,     4,       3, "<i>Reminded/defined the class objectives. Reviewed how to convert lines of code into a func.<br>Moved delay func calls into the custom func.</i>"],
