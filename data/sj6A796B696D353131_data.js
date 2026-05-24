@@ -1,5 +1,6 @@
 let refRt = ["1-38-30"];
 let dateTimeLog = [
+    [17, "2026. 5.24", "14:00", "18:35", "4:15",  -1,     0,     2.334,   3, "<i>Presented the level 2 game of the traffic light control. Discussion about AI coding, <br>trends, and tech now. Presented the graduation work.</i>"],
     [16, "2026. 5.17", "14:00", "18:15", "4:15",  -1,     0,     5.334,   3, "<i>Controlling traffic lights on a web browser with Arduino.<br>PlatformIO setup.</i>"],
     [15, "2026. 5.03", "14:00", "18:10", "4:10",  -1,    20,     8.334,   3, "<i>Completed the none blocking delay.</i>"],
     [14, "2026. 4.26", "14:00", "18:00", "4:00",  -1,     0,     4.667,   3, "<i>Made a custom timer for none blocking delay.</i>"],
