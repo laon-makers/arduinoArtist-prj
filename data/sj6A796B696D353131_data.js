@@ -1,5 +1,6 @@
 let refRt = ["1-38-30"];
 let dateTimeLog = [
+    [19, "2026. 6.21", "14:00", "18:45", "4:45",  -1,     2,         0,   3, "<i>Free (got 4 books instead). Answered to general questions on broad topics. Demo the last update on the traffic light control game project.</i>"],
     [18, "2026. 6.05", "14:00", "18:45", "4:45",  -1,     0,    -0.664,   3, "<i>Get ready for traffic light control game level 1. Discussion about the game architecture and setup.</i>"],
     [17, "2026. 5.24", "14:00", "18:35", "4:15",  -1,     0,     2.334,   3, "<i>Presented the level 2 game of the traffic light control. Discussion about AI coding, <br>trends, and tech now. Presented the graduation work.</i>"],
     [16, "2026. 5.17", "14:00", "18:15", "4:15",  -1,     0,     5.334,   3, "<i>Controlling traffic lights on a web browser with Arduino.<br>PlatformIO setup.</i>"],
@@ -19,3 +20,4 @@ let dateTimeLog = [
     [2,  "2025.11.30", "14:00", "17:30", "3:30",  -1,     0,     0.667,   3, "<i style='color:grey;'>Variable and Function (names and structure),<br> pre-processor, data types</i>"],
     [1,  "2025.11.23", "14:00", "17:30", "3:30",  -1,    20,     3.667,   3, "<i style='color:grey;'>C Basics. High level project design(꼬미 and <br>꼬미 sniffer project)</i>"]
 ];
+A
